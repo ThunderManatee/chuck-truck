@@ -19,7 +19,7 @@ interface Template {
   previewUrl: string;
 }
 
-export const TemplateSelectionStep: React.FC = () => {
+export const TemplateSelectionStep = () => {
   // Get auth state
   const { user } = useAuth();
 
